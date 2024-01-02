@@ -1,0 +1,220 @@
+
+:root{
+    --main-backColor:white;
+    --font-main :system-ui ;
+    --boxShadow-main :0px 0px 14px -6px black;
+  
+}
+/* navgition bar  */
+#nav-bar {
+    width: 100%;
+    margin: 1px;
+    display: flex;
+    text-align: start;
+    /* display: table-column; */
+    flex-direction: column;
+    padding: 9px;
+    position: fixed;
+    text-align: start;
+    background-color: white;
+    width: 23vh;
+    height: 47vh;
+    box-shadow: 0 40px 80px;
+    right: -300px;
+    transition: 0.4s;
+    /* border-radius: 10px; */
+}
+#nav-bar::before {
+   display: none;
+}
+#nav-bar.active{
+    right: 0px;
+   background-color: rgb(58, 58, 58);
+    border-radius: 23px;
+}
+
+#moblie{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    position: fixed;
+}
+#moblie img{
+    width: 10vw;
+    /* background-color: white; */
+    height: 7vh;
+    
+}
+#nav-bar ul{
+    margin-bottom: 19px;
+    display: block;
+}
+#nav-bar li {
+    margin: 27px 1px;
+}
+.cancle{
+    color: black;
+    font-size: 1.5rem;
+    height: 4vh;
+    display: none;
+    cursor: pointer;
+    box-shadow: 0 0 4px 0px;
+    border-radius: 4px;
+    /* display: flex; */
+    width: 5vw;
+    text-align: center;
+}
+
+.search-bar {
+    margin-top: 12px;
+    width: 19vw;
+    height: 5vh;
+}
+.search-container {
+    width: 32vw;
+    display: flex;
+    height: 9vh;
+    /* align-items: center; */
+    left: 13px;
+    justify-content: space-between;
+    position: fixed;
+}
+
+.search-bar input {
+    width: 21vw;
+    height: 4vh;
+    border: none;
+    border-radius: 10px;
+}
+
+.bottun {
+    margin-top: 12px;
+}
+
+.bottun input {
+    width: 4vw;
+    height: 4vh;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+}
+
+
+#nav-bar li a {
+    padding: 4px 14px;
+    font-size: 1.4rem;
+}
+
+
+
+
+/* Home conatiner*/
+.container-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 78vh;
+}
+h1 {
+    font-weight: 900;
+    
+    font-size: 2rem;
+    /* margin: 14px 213px; */
+    padding: 14px;
+    font-family: cursive;
+}
+
+.items p {
+    font-family: cursive;
+    font-weight: 900;
+    font-size: 1rem;
+    color: #da87a3;
+}
+
+
+
+
+/* store items in,lis */
+.list-1 button {
+    height: 1rem;
+    width: 4rem;
+    font-size: 0.6rem;
+    border: none;
+    font-family: revert;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 5px;
+    /* margin: 0px 0px 0px 147px; */
+    font-weight: 500;
+    box-shadow: 1px 1px 5px -4px;
+}
+
+.list-1 #item-2 button {
+    height: 1rem;
+    width: 4rem;
+    font-size: 0.6rem;
+    border: none;
+    font-family: revert;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 5px;
+    /* margin: 0px 0px 0px 147px; */
+    font-weight: 500;
+    box-shadow: 1px 1px 5px -4px;
+}
+
+.list-1 h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    margin: 10px 10px;
+    padding: 1px;
+    font-size: 0.7rem;
+}
+
+.list-1 p {
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 16px 13px;
+    padding: 1px;
+    display: inline;
+    font-size: 0.7rem;
+}
+/* bannner on last on tge home page */
+.banner-1 p {
+    color: #4de060;
+    font-size: 1rem;
+    padding: 15px;
+    font-family: cursive;
+    font-weight: 500;
+}
+.banner-1 h4 {
+    font-size: 1rem;
+    font-family: cursive;
+    font-weight: 900;
+    color: #35fbee;
+    margin: 2px 1px;
+}
+.banner-1 {
+    border: none;
+    padding: 10px;
+    height: 29vh;
+    margin: 65px 0px;
+    width: 45%;
+    box-shadow: 1px 1px 17px -9px;
+    border-radius: 5px;
+    text-align: start;
+    background-color: blueviolet;
+}
+.banner-1:hover {
+    box-shadow: 1px 1px 40px -10px;
+    width: 41%;
+    height: 30vh;
+}.container-2 {
+    display: flex;
+    position: relative;
+    /* bottom: 10px; */
+    top: 198px;
+    height: 47vh;
+    background: #ffd3d3;
+    justify-content: space-around;
+}
