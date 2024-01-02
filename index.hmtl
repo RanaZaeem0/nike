@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jordan. Nike.com</title>
+    <link rel="stylesheet" href="./stle.css">
+    <link rel="stylesheet" media="screen and (max-width:767px)" href="./phone.css">
+    <link rel="stylesheet" media="screen and (min-width:767px) and (max-width:1032px)" href="./ipad.css">
+</head>
+
+<body>
+    <header>
+        <div id="nav-bar">
+            <ul class="ul">
+                <div class="cancle">X</div>
+             
+                <li class="item" data-id="all"><a href="#">Home</a></li>
+                <li class="item" data-id="jorden"><a href="#">jorden</a></li>
+                <li class="item" data-id="Adides" ><a href="#">Adides</a></li>
+                <li class="item" data-id="all"><a href="#">saif</a></li>
+            </ul>
+            <div class="search-container">
+                <div class="search-bar">
+                    <input type="search">
+                </div>
+                <div class="bottun">
+                    <a href="#"><i><img src="./FONT/magnifying-glass-solid.svg" alt=""></i></a>
+                </div>
+            </div>
+        </div>
+        <div id="moblie">
+            <div class="logo">
+                <img src="./img/logo.png" alt="">
+            </div>
+            <i id="bar"><img src="./FONT/bars-solid (1).svg" alt=""></i>
+        
+        </div>
+        <!-- for dark mood -->
+        <!-- <div class="dark-mode">
+            <i><img src="./FONT/circle-half-stroke-solid.svg" alt=""></i>
+        </div> -->
+    </header>
+
+        <div class="container-1">
+            <div class="items">
+                <h1>New collection of jorden is here!</h1>
+                <div class="para">
+       <img src="./img/home.jpg" alt="">
+                    </div>
+        </div>
+    </div>
+    <section id="event">
+        <div class="event-con">
+            <ul>
+                <li><a href="#">Jordan Basketball</a></li>
+                <li> <a href="#">Man</a></li>
+                <!-- <li> <a href="#">Kids</a></li> -->
+                <li> <a href="#">Woman</a></li>
+                <li> <a href="#">Popular & Comunity</a></li>
+                <li> <a href="#">New relased</a></li>
+            </ul>
+            <div class="event-img">
+                <img src="./img/event.jpg" alt="">
+
+            </div>
+        </div>    
+    </section>
+        <div class="container">
+            <div class="list-1">
+                      
+                 <!-- <div class="box" id="item-1">
+                    <div class="images">
+                        <img src="./img/2.jpg" alt="">
+                        <i class="font"><img class="fon" src="./FONT/play-solid.svg" alt=""></i>     
+                     </div>
+                     <h3>NIKE Jardon 5 </h3>
+                     <p>prices:$799</p>
+                     <button >order now</button>
+                 </div> -->
+                            
+                
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container-2">
+
+            <div class="banner-1">
+                <h4>New Sales upto 60%off</h4>
+                <p>Now you can buy the mst popular shoes in sales prices</p>
+                <button>Learn More</button>
+            </div>
+            <div class="banner-1">
+                <h4>Upcoming relased of jorden 5</h4>
+                <p>Now you can buy the mst popular shoes in sales prices</p>
+                <button>Learn More</button>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+ 
+              <div class="box1">
+                <ul>
+                    <li><a style="font-weight: 700;" href="#">GEFT CARDS</a></li>
+                    <li><a href="#">FIN A STORE</a></li>
+                    <li><a href="#">NIIKE X NBA</a></li>
+                    <li><a href="#">NIKES JORDEN</a></li>
+                    <li><a href="#">links</a></li>
+                </ul>
+              </div>
+              <div class="box1">
+                <ul>
+                    <li><a style="font-weight: 700;" href="#">GET HELP</a></li>
+                    <li><a href="#">Order Status</a></li>
+                    <li><a href="#">shipping</a></li>
+                    <li><a href="#">Returns</a></li>
+                    
+                </ul>
+              </div>
+              <div class="box1">
+                <ul>
+                    <li><a style="font-weight: 700;" href="#">ABOUT NIKE</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Carerrs</a></li>
+                
+                </ul>
+              </div>
+    </section>
+ <script src="./inde.js"></script>
+</body>
+
+</html>
