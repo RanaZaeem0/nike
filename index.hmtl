@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jordan. Nike.com</title>
-    <link rel="stylesheet" href="./stle.css">
-    <link rel="stylesheet" media="screen and (max-width:767px)" href="./phone.css">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" media="screen and (max-width:767px)" href="./mobile.css">
     <link rel="stylesheet" media="screen and (min-width:767px) and (max-width:1032px)" href="./ipad.css">
 </head>
 
