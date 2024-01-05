@@ -42,9 +42,17 @@
 #moblie img{
     width: 10vw;
     /* background-color: white; */
-    height: 7vh;
-    
+    height: 7vh;   
 }
+.logo{
+ 
+}
+.logo button{
+    position: absolute;
+    top: 10px;
+
+}
+
 #nav-bar ul{
     margin-bottom: 19px;
     display: block;
@@ -76,7 +84,7 @@
     display: flex;
     height: 9vh;
     /* align-items: center; */
-    left: 103px;
+    left: 134px;
     justify-content: space-between;
     position: fixed;
 }
@@ -106,8 +114,17 @@
     padding: 4px 14px;
     font-size: 1.4rem;
 }
+/*                  Event images */
 
-
+.event-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.event-con li {
+    list-style: none;
+    margin: 10px 35px;
+}
 
 
 /* Home conatiner*/
@@ -115,7 +132,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 78vh;
+    height: 58vh;
 }
 h1 {
     font-weight: 900;

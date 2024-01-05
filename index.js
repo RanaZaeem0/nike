@@ -128,3 +128,11 @@ cancle.addEventListener('click', function () {
     cancle.style.display = 'none';
     nav.classList.remove('active')
 })
+
+//                         dark mood 
+const cssRoot = document.querySelector(":root")
+const darkMood  = document.querySelector('.dark');
+
+darkMood.addEventListener('click', function(){
+    cssRoot.classList.toggle('active')
+})

@@ -6,10 +6,17 @@
     padding: 0;
 }
 :root{
+    --text-colorBlack:black;
+    --text-colorWhite:white;
     --main-backColor:white;
     --font-main :system-ui ;
     --boxShadow-main :0px 0px 14px -6px black;
   
+}
+/*                  Dark mood  */
+
+:root.active{
+   --main-backColor:rgb(20, 19, 19); 
 }
 
 body {
@@ -76,7 +83,7 @@ header::before {
     text-decoration: none;
     color: white;
     
-    padding: 21px 23px;
+    padding: 21px 13px;
     border: none;
     height: 7vh;
     width: 10px;
@@ -95,14 +102,14 @@ font-weight: 400;
 
 /* search butons */
 .search-container{
-    width: 39vw;
+    width: 23vw;
     display: flex;
     height: 9vh;
+    align-items: center;
+    justify-content: space-evenly;
     
 }
-.search-bar {
-    margin: 17px 16px;
-}
+
 
 .search-bar input {
     width: 7vw;
@@ -121,9 +128,7 @@ font-weight: 400;
     width: 17vw;
 }
 
-.bottun {
-    margin-top: 26px;
-}
+
 
 .bottun input {
     width: 3vw;
@@ -143,6 +148,13 @@ font-weight: 400;
     /* display: flex; */
     width: 5vw;
     text-align: center;
+}
+/*                      Dark mood */
+
+.dark img, .bottun img{
+height: 4vh;
+width: 4vw;
+cursor: pointer;
 }
 
 
@@ -204,6 +216,7 @@ box-shadow: 0px 0px 18px -12px;
 .event-con ul {
     display: flex;
     width: 100%;
+    flex-wrap: wrap;
     margin-top: 10px;
 }
 

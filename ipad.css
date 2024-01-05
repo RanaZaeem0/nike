@@ -73,7 +73,7 @@
     width: 18vw;
     display: flex;
     height: 9vh;
-    left: 138px;
+    left: 168px;
     margin: -7px 0px;
     align-items: center;
     justify-content: space-between;
@@ -114,11 +114,20 @@ margin: 0;
 }
 
 
+/*                     Dark mode */
+
 
 .event-img {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+
+.event-con li {
+    list-style: none;
+    margin: 20px 35px;
 }
 
 
