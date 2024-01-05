@@ -65,7 +65,7 @@
 }
 
 .search-bar {
-    margin-top: 12px;
+   
     width: 19vw;
     height: 5vh;
 }
@@ -89,7 +89,7 @@
 }
 
 .bottun {
-    margin-top: -2px;
+margin: 0;
 }
 
 .bottun input {

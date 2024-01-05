@@ -66,16 +66,17 @@
 }
 
 .search-bar {
-    margin-top: 12px;
+
     width: 19vw;
     height: 5vh;
+    margin: 0;
 }
 .search-container {
-    width: 32vw;
+    width: 28vw;
     display: flex;
     height: 9vh;
     /* align-items: center; */
-    left: 13px;
+    left: 103px;
     justify-content: space-between;
     position: fixed;
 }
@@ -85,10 +86,11 @@
     height: 4vh;
     border: none;
     border-radius: 10px;
+    box-shadow: var(--boxShadow-main);
 }
 
 .bottun {
-    margin-top: 12px;
+ margin: 0;
 }
 
 .bottun input {
