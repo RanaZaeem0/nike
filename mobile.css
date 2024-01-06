@@ -84,9 +84,9 @@
     margin: 0;
 }
 .search-container {
-    width: 32vw;
+    width: 35vw;
     display: flex;
-    height: 9vh;
+    height: 6vh;
     /* align-items: center; */
     left: 134px;
     justify-content: space-between;
