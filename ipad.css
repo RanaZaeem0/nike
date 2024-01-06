@@ -12,12 +12,14 @@
     text-align: start;
     /* display: table-column; */
     flex-direction: column;
+    content: "";
+    z-index: 1;
     padding: 9px;
     position: fixed;
     text-align: start;
     background-color: white;
-    width: 23vh;
-    height: 47vh;
+    width: 43vh;
+    height: 57vh;
     box-shadow: 0 40px 80px;
     right: -400px;
     transition: 0.4s;
@@ -70,10 +72,12 @@
     height: 5vh;
 }
 .search-container {
-    width: 18vw;
+    width: 28vw;
     display: flex;
     height: 9vh;
     left: 168px;
+    content: "";
+    z-index: 2;
     margin: -7px 0px;
     align-items: center;
     justify-content: space-between;

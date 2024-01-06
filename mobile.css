@@ -11,21 +11,24 @@
     margin: 1px;
     display: flex;
     text-align: start;
+    content: "";
     /* display: table-column; */
     flex-direction: column;
     padding: 9px;
     position: fixed;
     text-align: start;
     background-color: white;
-    width: 23vh;
-    height: 47vh;
+    width: 30vh;
+    height: 54vh;
     box-shadow: 0 40px 80px;
     right: -300px;
     transition: 0.4s;
     /* border-radius: 10px; */
+    z-index: 2;
 }
 #nav-bar::before {
    display: none;
+   
 }
 #nav-bar.active{
     right: 0px;
@@ -38,6 +41,7 @@
     width: 100%;
     justify-content: space-between;
     position: fixed;
+    content: "";z-index: 1;
 }
 #moblie img{
     width: 10vw;
@@ -80,7 +84,7 @@
     margin: 0;
 }
 .search-container {
-    width: 28vw;
+    width: 32vw;
     display: flex;
     height: 9vh;
     /* align-items: center; */
@@ -133,7 +137,9 @@
     align-items: center;
     justify-content: center;
     height: 58vh;
+    position: relative;
 }
+
 h1 {
     font-weight: 900;
     

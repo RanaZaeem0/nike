@@ -6,9 +6,8 @@
     padding: 0;
 }
 :root{
-    --text-colorBlack:black;
-    --text-colorWhite:white;
-    --main-backColor:white;
+    --text-color:black;
+   --main-backColor:white;
     --font-main :system-ui ;
     --boxShadow-main :0px 0px 14px -6px black;
   
@@ -17,6 +16,7 @@
 
 :root.active{
    --main-backColor:rgb(20, 19, 19); 
+   --text-color:white;
 }
 
 body {
@@ -81,7 +81,7 @@ header::before {
 
 #nav-bar li a {
     text-decoration: none;
-    color: white;
+    color: var(--text-color);
     
     padding: 21px 13px;
     border: none;
@@ -138,7 +138,7 @@ font-weight: 400;
     border: none;
 }
 .cancle{
-    color: black;
+    color: var(--text-color);
     font-size: 1.5rem;
     height: 4vh;
     display: none;
@@ -174,7 +174,7 @@ cursor: pointer;
 
 h1 {
     font-weight: 900;
-    color: black;
+    color: var(--text-color);
     font-size: 38px;
    text-align: center;
     padding: 20px;
@@ -227,7 +227,7 @@ box-shadow: 0px 0px 18px -12px;
 
 .event-con li a {
     text-decoration: none;
-    color: black;
+    color: var(--text-color);
     padding: 9px 13px;
     border: none;
     height: 1vh;
@@ -351,7 +351,7 @@ color: rgb(226, 208, 208);
 .list-1 h3 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 900;
-
+       color: var(--text-color);
     padding: 1px 10px;
 }
 
@@ -359,6 +359,7 @@ color: rgb(226, 208, 208);
     font-weight: 700;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 16px 13px;
+    color: var(--text-color);
     padding: 1px;
     display: inline;
 }
