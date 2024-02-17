@@ -42,119 +42,12 @@ header::before {
 
 }
 
-#nav-bar {
-    display: flex;
-    position: fixed;
-    width: 100%;
-}
-#nav-bar:hover li a{
- font-size: 1.3rem;
-}
-#moblie{
-    display: none;
-}
-
-
-#nav-bar::before {
-    content: "";
-    position: absolute;
-    height: 11vh;
-    width: 105%;
-    z-index: -1;
-    opacity: 0.5;
-    background-color: black;
-    
-}
-
-#nav-bar ul {
-    display: flex;
-    width: 92%;
-    margin-top: 10px;
-}
-
-#nav-bar li {
-    list-style: none;
-    margin: 9px 35px;
-    height: 18px;
-   
-}
-
-#nav-bar li a {
-    text-decoration: none;
-    color: var(--text-color);
-    
-    padding: 21px 13px;
-    border: none;
-    height: 7vh;
-    width: 10px;
-    font-weight: 400;
+/*                  NAV BAR */
+.nav-item a{
     font-size: 1.2rem;
-    font-family: var(--font-main);
-    /* border-radius: 11px; */
-    transition: 0.4s;
-}
-
-li a:hover {
-    box-shadow: var(--boxShadow-main);
-font-weight: 400;
-
-}
-
-/* search butons */
-.search-container{
-    width: 23vw;
-    display: flex;
-    height: 9vh;
-    align-items: center;
-    justify-content: space-evenly;
+    font-weight: 700;
     
-}
 
-
-.search-bar input {
-    width: 7vw;
-    height: 5vh;
-    border: none;
-    font-family: var(--font-main);
-    border-radius: 10px;
-    transition: 0.5s;
-    text-align: center;
-
-
-}
-
-.search-bar:hover  input{
-    box-shadow: var(--boxShadow-main);
-    width: 17vw;
-}
-
-
-
-.bottun input {
-    width: 3vw;
-    height: 19px;
-    cursor: pointer;
-    border-radius: 10px;
-    border: none;
-}
-.cancle{
-    color: var(--text-color);
-    font-size: 1.5rem;
-    height: 4vh;
-    display: none;
-    cursor: pointer;
-    box-shadow: 0 0 4px 0px;
-    border-radius: 4px;
-    /* display: flex; */
-    width: 5vw;
-    text-align: center;
-}
-/*                      Dark mood */
-
-.dark img, .bottun img{
-height: 4vh;
-width: 4vw;
-cursor: pointer;
 }
 
 
@@ -272,7 +165,7 @@ color: rgb(226, 208, 208);
 .container::before {
     content: "";
     z-index: -1;
-    width: 100%;
+    width: 112vw;
     /* background: url(./img/event.jpg); */
     background-color: var(--main-backColor);
   
@@ -284,10 +177,11 @@ color: rgb(226, 208, 208);
 
 .list-1 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     height: 147vh;
     flex-wrap: wrap;
+    width: 100%;
 }
 .box .images{
     height: 51vh;
@@ -297,15 +191,13 @@ color: rgb(226, 208, 208);
 .box img {
     height: 50vh;
     margin: 0;
-    width: 27vw;
+    width: 23vw;
     border-radius: 24px;
     box-shadow: 0px 1px 11px -6px;
     display: flex;
     transition: 0.2s;
 }
-.box:hover .images >img{
-    width: 28vw;
-}
+
 
 .font{
     position: relative;
@@ -328,9 +220,11 @@ color: rgb(226, 208, 208);
     border: none;
     border-radius: 25px;
     /* border: 2px solid; */
-    height: 63vh;
+    height: 66vh;
     /* position: absolute; */
-    width: 27vw;
+    width: 22vw;
+  
+    width: 23vw;
     background-color: var(--main-backColor);
     transition: .3s;
 }
@@ -338,13 +232,13 @@ color: rgb(226, 208, 208);
 .box:hover {
     box-shadow: 1px 1px 13px -2px black;
     cursor: pointer;
-    width: 28vw;
-    height: 64vh;
-}
+   
+ 
+ }
 
 .box:hover button {
     background-color: #35fbee;
-}
+} */
 
 
 
@@ -353,6 +247,7 @@ color: rgb(226, 208, 208);
     font-weight: 900;
        color: var(--text-color);
     padding: 1px 10px;
+   font-size: 1.3rem;
 }
 
 .list-1 p {
@@ -362,6 +257,8 @@ color: rgb(226, 208, 208);
     color: var(--text-color);
     padding: 1px;
     display: inline;
+    font-size: 1.rem;
+  
 }
 
 .list-1 button {
@@ -372,6 +269,7 @@ color: rgb(226, 208, 208);
     border-radius: 10px;
     cursor: pointer;
     padding: 5px;
+    font-size: .9rem;
    position: relative;
    left: 37px;
     font-weight: 800;
@@ -395,7 +293,7 @@ color: rgb(226, 208, 208);
     padding: 10px;
     margin: 65px 0px;
     width: 47%;
-    height: 43vh;
+    height: 50vh;
     box-shadow: 1px 1px 17px -9px;
     border-radius: 5px;
     text-align: start;
@@ -406,8 +304,7 @@ color: rgb(226, 208, 208);
 
 .banner-1:hover {
     box-shadow: 1px 1px 40px -10px;
-    width: 47%;
-    height: 45vh;
+  
 }
 .banner-1:hover button {
     background-color: #4de060;
