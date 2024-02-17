@@ -106,33 +106,33 @@ function displayingitems(Items) {
 }
 
 
-// Responsive nav bar
-const cancle = document.querySelector('.cancle')
-const bar = document.querySelector('#bar');
-const nav = document.querySelector('#nav-bar ')
-const window1 = document.querySelector('window')
-console.log(nav);
+// // Responsive nav bar
+// const cancle = document.querySelector('.cancle')
+// const bar = document.querySelector('#bar');
+// const nav = document.querySelector('#nav-bar ')
+// const window1 = document.querySelector('window')
+// console.log(nav);
 
 
 
 
-bar.addEventListener('click', function () {
-    // nav.style.right = '0px';
-    nav.classList.toggle('active')
-    // nav.style.transition = '0.3s'
-    cancle.style.display = 'block'
+// bar.addEventListener('click', function () {
+//     // nav.style.right = '0px';
+//     nav.classList.toggle('active')
+//     // nav.style.transition = '0.3s'
+//     cancle.style.display = 'block'
 
-    console.log('ckixk')
-})
-cancle.addEventListener('click', function () {
-    cancle.style.display = 'none';
-    nav.classList.remove('active')
-})
+//     console.log('ckixk')
+// })
+// cancle.addEventListener('click', function () {
+//     cancle.style.display = 'none';
+//     nav.classList.remove('active')
+// })
 
-//                         dark mood 
-const cssRoot = document.querySelector(":root")
-const darkMood  = document.querySelector('.dark');
+// //                         dark mood 
+// const cssRoot = document.querySelector(":root")
+// const darkMood  = document.querySelector('.dark');
 
-darkMood.addEventListener('click', function(){
-    cssRoot.classList.toggle('active')
-})
+// darkMood.addEventListener('click', function(){
+//     cssRoot.classList.toggle('active')
+// })
